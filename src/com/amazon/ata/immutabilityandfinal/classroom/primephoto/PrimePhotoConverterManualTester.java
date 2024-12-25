@@ -21,7 +21,7 @@ public class PrimePhotoConverterManualTester {
         runTest("src/resources/dalmatian.jpg", ImmutableList.of(ConversionType.INVERSION,
             ConversionType.GREYSCALE, ConversionType.SEPIA));
 
-        // PARTICIPANTS: uncomment the below line to run a test that converts an image to a single filter type.
+      //   PARTICIPANTS: uncomment the below line to run a test that converts an image to a single filter type.
 //         runTest("src/resources/dalmatian.jpg", ImmutableList.of(ConversionType.SEPIA));
     }
 

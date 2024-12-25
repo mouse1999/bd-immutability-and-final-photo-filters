@@ -19,8 +19,7 @@ public class SepiaConverter implements PrimePhotoConverter {
 
         for (Pixel pixel : image.getPixels()) {
             RGB rgb = pixel.getRGB();
-            rgb.toSepia();
-            pixels.add(new Pixel(pixel.getX(), pixel.getY(), rgb));
+            pixels.add(new Pixel(pixel.getX(), pixel.getY(),rgb.toSepia()));
         }
 
         PrimePhoto convertedImage = new PrimePhoto(pixels, image.getHeight(), image.getWidth(), image.getType());

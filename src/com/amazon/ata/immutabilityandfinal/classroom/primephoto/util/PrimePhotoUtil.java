@@ -90,6 +90,7 @@ public final class PrimePhotoUtil {
             throw new PhotoConversionServiceException(
                 String.format("Unable to save converted image: %s", f.getPath()));
         }
+
     }
 
     private static int getRGBIntValue(RGB rgb) {
